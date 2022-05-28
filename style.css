@@ -1,6 +1,11 @@
-p  {
+p {
     font-size: 0.8em;
     color: rgb(140, 136, 136);
+    margin-bottom: 0px;
+}
+
+hr {
+    margin: 0px;
 }
 
 #more-notifications{
@@ -17,4 +22,5 @@ p  {
 
 .notification-display{
     width: 30%;
+    overflow-y: scroll;
 }
